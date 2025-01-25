@@ -17,7 +17,6 @@ class worker{
  {
    try {
       // Build the API URL with the location
-     String apiKey = '88b9eda5d0b764565a67bed8bd7e9ef8';
      Uri url = Uri.parse(
          'https://api.openweathermap.org/data/2.5/weather?q=$location&appid=$apiKey');
 
